@@ -1,0 +1,32 @@
+@font-face{
+    font-family: Arvo;
+    src: url(../fonts/Arvo-Regular.ttf);
+    src: url(../fonts/Arvo.woff);
+}
+body{
+    font-family: Arvo;
+}
+.height{
+    min-height: 100vh;
+}
+.title-underline{
+    width: 200px;
+    height: 8px;
+    margin: 0 auto;
+}
+.height-80{
+    min-height: 80vh;
+}
+.about-picture{
+    background: url(../images/about-bcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#filler, #progress{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)), url(../images/projects-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
